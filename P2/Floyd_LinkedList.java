@@ -5,9 +5,9 @@ public class Floyd_LinkedList{
     public static void main(String[] args){
         Runtime runtime = Runtime.getRuntime();
 
-        Graph1 graph= toGraph(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
+        Graph1 graph= toGraph(readCSV("Project2_Input_Files/Project2_Input_File12.csv"));
         long start1 = System.currentTimeMillis();
-        FloydLL(graph, 192, 163);
+        FloydLL(graph, 192, 1);
         long end1 = System.currentTimeMillis();
         System.out.println(end1 - start1 + "ms");
 

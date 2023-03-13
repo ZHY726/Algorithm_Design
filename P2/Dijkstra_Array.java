@@ -5,20 +5,20 @@ public class Dijkstra_Array {
     public static void main(String[] args) {
         Runtime runtime = Runtime.getRuntime();
 
-        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
         long start1 = System.currentTimeMillis();
+        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
         Dijkstra2D(matrix, 192, 163);
         long end1 = System.currentTimeMillis();
         System.out.println(end1 - start1 + "ms");
 
-//        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
 //        long start1 = System.currentTimeMillis();
+//        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
 //        Dijkstra2D(matrix, 138, 66);
 //        long end1 = System.currentTimeMillis();
 //        System.out.println(end1 - start1 + "ms");
 
-//        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
 //        long start1 = System.currentTimeMillis();
+//        int[][] matrix = to2DArray(readCSV("Project2_Input_Files/Project2_Input_File4.csv"));
 //        Dijkstra2D(matrix, 465, 22);
 //        long end1 = System.currentTimeMillis();
 //        System.out.println(end1 - start1 + "ms");
